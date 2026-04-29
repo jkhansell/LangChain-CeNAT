@@ -23,8 +23,8 @@ This repository is the companion to the course located [HERE](https://academy.la
 Download the course repository
 ```bash
 # Clone the repo
-git clone --depth 1 https://github.com/langchain-ai/lca-lc-foundations.git
-cd lca-lc-foundations
+git clone git@github.com:jkhansell/LangChain-CeNAT.git
+cd LangChain-CeNAT
 ```
 
 Make a copy of example.env
@@ -54,11 +54,10 @@ GOOGLE_API_KEY='your_google_api_key_here'
 LANGSMITH_API_KEY='your_langsmith_api_key_here'
 # uncomment to set tracing to true when you set up your LangSmith account
 #LANGSMITH_TRACING=true
-LANGSMITH_PROJECT=lca-lc-foundation
+LANGSMITH_PROJECT=LangChain-CeNAT
 # Uncomment the following if you are on the EU instance:
 #LANGSMITH_ENDPOINT=https://eu.api.smith.langchain.com
 ```
-
 
 Make a virtual environment and install dependencies. [More info](#python-virtual-environments)
 
