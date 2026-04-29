@@ -23,7 +23,7 @@ This repository is the companion to the course located [HERE](https://academy.la
 Download the course repository
 ```bash
 # Clone the repo
-git clone git@github.com:jkhansell/LangChain-CeNAT.git
+git clone --depth 1 https://github.com/jkhansell/LangChain-CeNAT.git
 cd LangChain-CeNAT
 ```
 
